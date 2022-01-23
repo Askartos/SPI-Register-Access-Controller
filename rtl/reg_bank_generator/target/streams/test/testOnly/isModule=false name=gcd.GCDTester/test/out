@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mGCDTester:[0m[0m
+[0m[[0minfo[0m] [0m[32mGCD[0m[0m
+[0m[[0minfo[0m] [0m[32mBasic test using Driver.execute[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be used as an alternative way to run specification[0m[0m
+[0m[[0minfo[0m] [0m[32musing --backend-name verilator[0m[0m
+[0m[[0minfo[0m] [0m[32mrunning with --is-verbose[0m[0m
+[0m[[0minfo[0m] [0m[32mrunning with --fint-write-vcd[0m[0m
+[0m[[0minfo[0m] [0m[32musing --help[0m[0m
