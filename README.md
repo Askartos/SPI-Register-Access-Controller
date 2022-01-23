@@ -1,5 +1,6 @@
 # SPI-Register-Access-Controller
 Here you can find the RTL for a SPI+Register bank controller which can be used to test stand-alone Analog/Digital IP
+![image info](./docs/core_arch.PNG)
 How to set  a register map :
 1) Edit ./rtl/reg_bank_generator/src/main/scala/registersMain.scala
 2) the  map of registers is defined by a ListBuffer of the reset values which is also used to determine the bitwidth of each individual register
