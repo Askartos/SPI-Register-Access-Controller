@@ -3,14 +3,14 @@ Here you can find the RTL for a SPI+Register bank controller which can be used t
 How to set  a register map :
 1) Edit ./rtl/reg_bank_generator/src/main/scala/registersMain.scala
 2) the  map of registers is defined by a ListBuffer of the reset values which is also used to determine the bitwidth of each individual register
-"
+```
 	var initial_regwr= new ListBuffer[UInt]()
 	//AFE
 	initial_regwr += 129.U(8.W)//AFE MATCHING R[7:0]
 	initial_regwr += 255.U(8.W)//AFE R
 	initial_regwr += 0.U(4.W)//AFE Cs
 	initial_regwr += 0.U(2.W)//AFE BIAS
-"
+```
 The above example shows the configuration needed to generate a bank of 4 registers for AFE testing : 
 2 of 8bits, 1 of 4bits, 1 of 2bits. 
 The reset values for those registers will be 129, 255 and 0.
