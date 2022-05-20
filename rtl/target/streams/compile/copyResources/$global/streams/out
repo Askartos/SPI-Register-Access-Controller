@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/src/main/resources/access_controler.v,/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/target/scala-2.11/classes/access_controler.v)[0m
+[0m[[0mdebug[0m] [0m	(/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/src/main/resources/drac.v,/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/target/scala-2.11/classes/drac.v)[0m
+[0m[[0mdebug[0m] [0m	(/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/src/main/resources/registers.v,/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/target/scala-2.11/classes/registers.v)[0m
+[0m[[0mdebug[0m] [0m	(/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/src/main/resources/spi.v,/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/target/scala-2.11/classes/spi.v)[0m
