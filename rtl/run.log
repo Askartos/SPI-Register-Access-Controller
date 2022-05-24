@@ -1,10 +1,10 @@
-[0m[[0minfo[0m] [0mLoading project definition from /slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/project[0m
-[0m[[0minfo[0m] [0mSet current project to project (in build file:/slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /slowfs/cae210/hanssel/testcases/vlsi/SPI-Register-Access-Controller/rtl/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/askartos/sandbox/SPI-Register-Access-Controller/rtl/project[0m
+[0m[[0minfo[0m] [0mSet current project to project (in build file:/home/askartos/sandbox/SPI-Register-Access-Controller/rtl/)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/askartos/sandbox/SPI-Register-Access-Controller/rtl/target/scala-2.11/classes...[0m
 [0m[[33mwarn[0m] [0mthere were 20 feature warnings; re-run with -feature for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m
 [0m[[0minfo[0m] [0mRunning spi_registers.dracMain [0m
 [[35minfo[0m] [0.002] Elaborating design...
-[[35minfo[0m] [0.523] Done elaborating.
-Total FIRRTL Compile Time: 989.8 ms
-[0m[[32msuccess[0m] [0mTotal time: 6 s, completed May 19, 2022 11:04:12 PM[0m
+[[35minfo[0m] [0.424] Done elaborating.
+Total FIRRTL Compile Time: 857.2 ms
+[0m[[32msuccess[0m] [0mTotal time: 5 s, completed May 23, 2022 7:11:45 PM[0m

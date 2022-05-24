@@ -33,10 +33,10 @@ class access_controler(val nregwr : Int, val nregr:Int) extends BlackBox(Map("nr
     	val datar  = Output(UInt(8.W))  	
     	val ready  = Output(Bool())  
 	//to registers
-    	val data_out  = Input(UInt(8.W)) 	
+    	val data_out  = Output(UInt(8.W)) 	
     	val we  = Output(Bool())  
-    	val data_in  = Output(UInt(8.W))  
-    	val addr  = Output(UInt(8.W))  
+    	val data_in  = Input(UInt(8.W))  
+    	val addr  = Output(UInt(log2Ceil(nregwr+nregr).W))  
   
 	})	
 	addResource("/access_controler.v")
@@ -92,9 +92,9 @@ class drac (val nbits : Int, val sizes_regr :ListBuffer[Int], val initial_regwr 
 	REGS.clk	:=clk
 	REGS.rst	:=rst
 	REGS.we	:=CONTROL.io.we
-	REGS.dataw	:=CONTROL.io.data_in
+	CONTROL.io.data_in	:=REGS.datar
 	REGS.addr	:=CONTROL.io.addr
-	CONTROL.io.data_out:=REGS.datar
+	REGS.dataw :=CONTROL.io.data_out
 
 	for (j <- 0 until nregr) {
 		REGS.regr(j) :=  regr(j) //from external ip

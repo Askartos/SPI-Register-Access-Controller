@@ -5,5 +5,5 @@
 sbt 'runMain spi_registers.dracMain' | tee run.log
 
 mv *.v generated
-mv *.f* generated
-mv *.anno* generated
+rm *.f* 
+rm *.anno* 
