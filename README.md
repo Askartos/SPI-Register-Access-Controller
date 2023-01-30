@@ -1,5 +1,5 @@
 # SPI-Register-Access-Controller
-Here you can find the RTL for a SPI+Register bank controller which can be used to test stand-alone Analog/Digital IP
+Here you can find the RTL for a SPI+Register bank controller which can be used to perform trimming/calibration and comunicate your stand-alone Analog/Digital IP with a MCU or USB to SPI converter.
 ![image info](./docs/core_arch.PNG)
 How to set  a register map :
 1) Edit ./rtl/reg_bank_generator/src/main/scala/registersMain.scala
